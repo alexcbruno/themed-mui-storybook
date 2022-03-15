@@ -11,13 +11,13 @@ export default {
     size: {
       control: {
         type: "select",
-        options: ["xs", "sm", "md"],
+        options: ["sm", "md"],
       },
     },
     color: {
       control: {
         type: "select",
-        options: ["primary", "secondary", "success", "warning"],
+        options: ["primary", "secondary"],
       },
     },
   },
