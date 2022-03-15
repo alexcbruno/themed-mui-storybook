@@ -8,17 +8,16 @@ export default {
     checked: { control: "boolean" },
     disabled: { control: "boolean" },
     squared: { control: "boolean" },
-    bordered: { control: "boolean" },
     size: {
       control: {
         type: "select",
-        options: ["xs", "sm", "md", "lg", "xl"],
+        options: ["xs", "sm", "md"],
       },
     },
     color: {
       control: {
         type: "select",
-        options: ["primary", "secondary", "success", "warning", "error"],
+        options: ["primary", "secondary", "success", "warning"],
       },
     },
   },
