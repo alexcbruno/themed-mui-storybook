@@ -13,11 +13,7 @@ export default {
         type: "select",
         options: [
           "primary",
-          "secondary",
-          "success",
-          "error",
-          "info",
-          "warning",
+          "secondary"
         ],
       },
     },
@@ -25,8 +21,7 @@ export default {
       control: { type: "select", options: ["small", "medium"] },
     },
     disabled: { control: "boolean" },
-    clickable: { control: "boolean" },
-    onDelete: { control: "boolean", name: "deletable" },
+    clickable: { control: "boolean" }
   },
 };
 
