@@ -9,18 +9,17 @@ export default {
     rounded: { control: "boolean" },
     bordered: { control: "boolean" },
     flat: { control: "boolean" },
-    light: { control: "boolean" },
     auto: { control: "boolean", name: "auto width" },
     size: {
       control: {
         type: "select",
-        options: ["xs", "sm", "md", "lg", "xl"],
+        options: ["xs", "md"],
       },
     },
     color: {
       control: {
         type: "select",
-        options: ["primary", "secondary", "success", "warning", "error"],
+        options: ["primary", "error"],
       },
     },
   },
@@ -34,7 +33,6 @@ Button.args = {
   rounded: false,
   bordered: false,
   flat: false,
-  light: false,
   auto: true,
   size: "md",
   label: "text",
