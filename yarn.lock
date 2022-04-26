@@ -13825,10 +13825,10 @@ storybook-addon-intl@^2.3.0:
   dependencies:
     prop-types "^15.5.0"
 
-storybook-anima@^1.2.3:
-  version "1.2.3"
-  resolved "https://npm.animaapp.com/storybook-anima/-/storybook-anima-1.2.3.tgz#87d81a183f28c24246ebd5c2db51c15886707f2f"
-  integrity sha512-3TkVbdbWKcvUF6t2qwHnjmtFpDOg6533MXx4sIewBh7cbWYIWwqGXrLnJpmt99aUQeyqs2to8IyF2DKHT34rzw==
+storybook-anima@^1.4.0:
+  version "1.4.0"
+  resolved "https://npm.animaapp.com/storybook-anima/-/storybook-anima-1.4.0.tgz#f7e0abd7b2ad49e14fe644fedc851d93ebcb2e56"
+  integrity sha512-f7+Bv56bjSuslGNUP23TgiItq7psnhYZ/IJS+B9BcykpDNmzdPoWGiIz6jQF07c6LixilqhsTeQ4Gnk8adNBpA==
   dependencies:
     "@emotion/react" "^11.7.1"
     "@emotion/server" "^11.4.0"

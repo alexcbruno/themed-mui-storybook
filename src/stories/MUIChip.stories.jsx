@@ -29,7 +29,7 @@ const Template = (args) => <Component {...args} />;
 export const Chip = Template.bind({});
 
 Chip.args = {
-  label: "Chip text",
+  label: "Chip",
   variant: "filled",
   color: "primary",
   clickable: true,

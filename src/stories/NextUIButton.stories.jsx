@@ -35,5 +35,5 @@ Button.args = {
   flat: false,
   auto: true,
   size: "md",
-  label: "text",
+  label: "Button",
 };
