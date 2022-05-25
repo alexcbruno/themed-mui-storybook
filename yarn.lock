@@ -19,6 +19,115 @@
     jsonpointer "^5.0.0"
     leven "^3.1.0"
 
+"@atlaskit/analytics-next-stable-react-context@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.npmjs.org/@atlaskit/analytics-next-stable-react-context/-/analytics-next-stable-react-context-1.0.1.tgz#93c4c7a1a35f4ab606d727af443f49f0842fd96f"
+  integrity sha512-iO6+hIp09dF4iAZQarVz3vKY1kM5Ij5CExYcK9jgc2q+OH8nv8n+BPFeJTdzGOGopmbUZn5Opj9pYQvge1Gr4Q==
+  dependencies:
+    tslib "^2.0.0"
+
+"@atlaskit/analytics-next@^8.0.0", "@atlaskit/analytics-next@^8.2.0":
+  version "8.3.1"
+  resolved "https://registry.npmjs.org/@atlaskit/analytics-next/-/analytics-next-8.3.1.tgz#20bb3438ca879b38af6f379aa0b21bcfa5bbc723"
+  integrity sha512-vM1pMtn2IvCbUG6ZufWYJ8PUFluhUWVNtVZG+vR6ywdOC7M2bWrcfb18jBaIq2GfL/DzUQwOO3dZ2NFVpQTSLA==
+  dependencies:
+    "@atlaskit/analytics-next-stable-react-context" "1.0.1"
+    "@babel/runtime" "^7.0.0"
+    prop-types "^15.5.10"
+    use-memo-one "^1.1.1"
+
+"@atlaskit/button@^16.3.0":
+  version "16.3.1"
+  resolved "https://registry.npmjs.org/@atlaskit/button/-/button-16.3.1.tgz#51258e70e48c10926660d7088d9416e26ed7d166"
+  integrity sha512-44lEkbTz/PqQyOt6gB2/RDUEEUcSTsZoHWTXWLMQUXgGLxtKaUya+lznQfngDVUBBoSN3abLXJXkykj/cj5Z3A==
+  dependencies:
+    "@atlaskit/analytics-next" "^8.2.0"
+    "@atlaskit/ds-lib" "^1.4.0"
+    "@atlaskit/spinner" "^15.1.0"
+    "@atlaskit/theme" "^12.1.0"
+    "@atlaskit/tokens" "^0.10.0"
+    "@babel/runtime" "^7.0.0"
+    "@emotion/core" "^10.0.9"
+
+"@atlaskit/codemod-utils@^4.0.0":
+  version "4.0.2"
+  resolved "https://registry.npmjs.org/@atlaskit/codemod-utils/-/codemod-utils-4.0.2.tgz#d056a76b75d1eb1b608153dc7aca6633d42fb5de"
+  integrity sha512-ZtqGcmCG3xYz7/mctJWJKP6IIuZg+i8o+Y8rePEhE7JppKGQ9yVlBh7L8pdalKrv+YkGVyWbFBCKl3q6O1DXpQ==
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+
+"@atlaskit/css-reset@^6.3.13":
+  version "6.3.13"
+  resolved "https://registry.npmjs.org/@atlaskit/css-reset/-/css-reset-6.3.13.tgz#217e91c9451592f17c14ff18e1c222beb62214e5"
+  integrity sha512-bezlMjS4iU65dOSQ8k8Ig14afV7yInJElkiZj5JyeJudW3LNcZ5EG0agKpfGZyVhyX5KSqPaKSvr6t0AbBu32A==
+  dependencies:
+    "@atlaskit/theme" "^12.1.0"
+    "@atlaskit/tokens" "^0.10.0"
+    "@babel/runtime" "^7.0.0"
+    fbjs "^3.0.0"
+
+"@atlaskit/ds-lib@^1.4.0":
+  version "1.4.2"
+  resolved "https://registry.npmjs.org/@atlaskit/ds-lib/-/ds-lib-1.4.2.tgz#9fd6275c9c0bbbed55547a415563d29bb1395de5"
+  integrity sha512-HcZbjppbWLH6cYyb/fDplUZaWabtM1qdse2zUJaACsGTSCCI1m8+T3dVCYlGn6NtzehqkabEY9DWgK/DlLzNlQ==
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+
+"@atlaskit/icon@^21.10.0":
+  version "21.10.7"
+  resolved "https://registry.npmjs.org/@atlaskit/icon/-/icon-21.10.7.tgz#6395b8a795173f5014cf85365d2b82a7e978af31"
+  integrity sha512-S1e/V1p11ULNpo3XfDXN1tP6HyxnTyHUQxU1UlEAtFQ933dGIRRur46fZiVKOpMZ9cKjlPIBjf7EBkfaQRtNQw==
+  dependencies:
+    "@atlaskit/theme" "^12.1.0"
+    "@atlaskit/tokens" "^0.10.0"
+    "@babel/runtime" "^7.0.0"
+    "@emotion/core" "^10.0.9"
+
+"@atlaskit/pagination@^14.1.6":
+  version "14.1.6"
+  resolved "https://registry.npmjs.org/@atlaskit/pagination/-/pagination-14.1.6.tgz#9e5a5fba2ad299c1a577ba81936da2d87213403a"
+  integrity sha512-xy5b2qkmpB1/Ihv09cd8mixTJ1+GOLRFsh+eb16rxVPL+542bVqLP+PLSQXz+TL3an6DZQ8Q2ahpqtUWR5smKQ==
+  dependencies:
+    "@atlaskit/analytics-next" "^8.0.0"
+    "@atlaskit/button" "^16.3.0"
+    "@atlaskit/codemod-utils" "^4.0.0"
+    "@atlaskit/ds-lib" "^1.4.0"
+    "@atlaskit/icon" "^21.10.0"
+    "@atlaskit/theme" "^12.1.0"
+    "@babel/runtime" "^7.0.0"
+    "@emotion/core" "^10.0.9"
+    memoize-one "^6.0.0"
+
+"@atlaskit/spinner@^15.1.0":
+  version "15.1.11"
+  resolved "https://registry.npmjs.org/@atlaskit/spinner/-/spinner-15.1.11.tgz#b7788896526af6568526a49ef43af000fb1fbfb8"
+  integrity sha512-hZru4XRc1AR5BbcLh+rvmtusZdRYHmC+p6cg54AdHkPUu+HyGHcu5dsEh1Utq4V26EMpr8aSoj3ZlJi1rsGVig==
+  dependencies:
+    "@atlaskit/theme" "^12.1.0"
+    "@atlaskit/tokens" "^0.10.0"
+    "@babel/runtime" "^7.0.0"
+    "@emotion/core" "^10.0.9"
+
+"@atlaskit/theme@^12.1.0":
+  version "12.1.8"
+  resolved "https://registry.npmjs.org/@atlaskit/theme/-/theme-12.1.8.tgz#4f93a8f605b34d1a45ec617b35f7d46b5b759ce2"
+  integrity sha512-73ACoF+WVHPI4RaiaBcGlKeMNRJxZnYNI5vu5us5oCTIiDebv6ZQkbuqbhrD6at5luBUZlZupe3CTaPTb34BkQ==
+  dependencies:
+    "@atlaskit/codemod-utils" "^4.0.0"
+    "@atlaskit/ds-lib" "^1.4.0"
+    "@atlaskit/tokens" "^0.10.0"
+    "@babel/runtime" "^7.0.0"
+
+"@atlaskit/tokens@^0.10.0":
+  version "0.10.1"
+  resolved "https://registry.npmjs.org/@atlaskit/tokens/-/tokens-0.10.1.tgz#8820f58ca0e8e6552d4967f5df23a8e0cce2d793"
+  integrity sha512-ExHjmbGgmlzO20oqeediIKfKlW89cntgs2wIUmla+y0aJw5Mh5d/2jDhAxdh1Ktfb57WNiR4YbJiVW8x3M2zvQ==
+  dependencies:
+    "@atlaskit/ds-lib" "^1.4.0"
+    "@babel/runtime" "^7.0.0"
+    "@babel/traverse" "^7.15.0"
+    "@babel/types" "^7.15.0"
+
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.10.4", "@babel/code-frame@^7.12.13", "@babel/code-frame@^7.16.0", "@babel/code-frame@^7.16.7", "@babel/code-frame@^7.5.5", "@babel/code-frame@^7.8.3":
   version "7.16.7"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.16.7.tgz#44416b6bd7624b998f5b1af5d470856c40138789"
@@ -1255,7 +1364,7 @@
     debug "^4.1.0"
     globals "^11.1.0"
 
-"@babel/traverse@^7.18.0", "@babel/traverse@^7.18.2":
+"@babel/traverse@^7.15.0", "@babel/traverse@^7.18.0", "@babel/traverse@^7.18.2":
   version "7.18.2"
   resolved "https://registry.npmjs.org/@babel/traverse/-/traverse-7.18.2.tgz#b77a52604b5cc836a9e1e08dca01cba67a12d2e8"
   integrity sha512-9eNwoeovJ6KH9zcCNnENY7DMFwTU9JdGCFtqNLfUAqtUHRCOsTOqWoffosP8vKmNYeSBUv3yVJXjfd8ucwOjUA==
@@ -1279,7 +1388,7 @@
     "@babel/helper-validator-identifier" "^7.16.7"
     to-fast-properties "^2.0.0"
 
-"@babel/types@^7.18.0", "@babel/types@^7.18.2":
+"@babel/types@^7.15.0", "@babel/types@^7.18.0", "@babel/types@^7.18.2":
   version "7.18.2"
   resolved "https://registry.npmjs.org/@babel/types/-/types-7.18.2.tgz#191abfed79ebe6f4242f643a9a5cbaa36b10b091"
   integrity sha512-0On6B8A4/+mFUto5WERt3EEuG1NznDirvwca1O8UwXQHVY8g3R7OzYgxXdOfMwLO08UrpUD/2+3Bclyq+/C94Q==
@@ -6888,6 +6997,13 @@ create-react-context@0.3.0:
     gud "^1.0.0"
     warning "^4.0.3"
 
+cross-fetch@^3.1.5:
+  version "3.1.5"
+  resolved "https://registry.npmjs.org/cross-fetch/-/cross-fetch-3.1.5.tgz#e1389f44d9e7ba767907f7af8454787952ab534f"
+  integrity sha512-lvb1SBsI0Z7GDwmuid+mU3kWVBwTVUbe7S0H52yaaAdQOXq2YktTCZdlAcNKFzE6QtRz0snpw9bNiPeOIkkQvw==
+  dependencies:
+    node-fetch "2.6.7"
+
 cross-spawn@^6.0.0:
   version "6.0.5"
   resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-6.0.5.tgz#4a5ec7c64dfae22c3a14124dbacdee846d80cbc4"
@@ -8372,6 +8488,11 @@ fb-watchman@^2.0.0:
   dependencies:
     bser "2.1.1"
 
+fbjs-css-vars@^1.0.0:
+  version "1.0.2"
+  resolved "https://registry.npmjs.org/fbjs-css-vars/-/fbjs-css-vars-1.0.2.tgz#216551136ae02fe255932c3ec8775f18e2c078b8"
+  integrity sha512-b2XGFAFdWZWg0phtAWLHCk836A1Xann+I+Dgd3Gk64MHKZO44FfoD1KxyvbSh0qZsIoXQGGlVztIY+oitJPpRQ==
+
 fbjs@^0.8.4:
   version "0.8.18"
   resolved "https://registry.yarnpkg.com/fbjs/-/fbjs-0.8.18.tgz#9835e0addb9aca2eff53295cd79ca1cfc7c9662a"
@@ -8379,6 +8500,19 @@ fbjs@^0.8.4:
   dependencies:
     core-js "^1.0.0"
     isomorphic-fetch "^2.1.1"
+    loose-envify "^1.0.0"
+    object-assign "^4.1.0"
+    promise "^7.1.1"
+    setimmediate "^1.0.5"
+    ua-parser-js "^0.7.30"
+
+fbjs@^3.0.0:
+  version "3.0.4"
+  resolved "https://registry.npmjs.org/fbjs/-/fbjs-3.0.4.tgz#e1871c6bd3083bac71ff2da868ad5067d37716c6"
+  integrity sha512-ucV0tDODnGV3JCnnkmoszb5lf4bNpzjv80K41wd4k798Etq+UYD0y0TIfalLjZoKgjive6/adkRnszwapiDgBQ==
+  dependencies:
+    cross-fetch "^3.1.5"
+    fbjs-css-vars "^1.0.0"
     loose-envify "^1.0.0"
     object-assign "^4.1.0"
     promise "^7.1.1"
@@ -11189,6 +11323,11 @@ memoize-one@^5.0.0:
   resolved "https://registry.yarnpkg.com/memoize-one/-/memoize-one-5.2.1.tgz#8337aa3c4335581839ec01c3d594090cebe8f00e"
   integrity sha512-zYiwtZUcYyXKo/np96AGZAckk+FWWsUdJ3cHGGmld7+AhvcWmQyGCYUh1hc4Q/pkOhb65dQR/pqCyK0cOaHz4Q==
 
+memoize-one@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.npmjs.org/memoize-one/-/memoize-one-6.0.0.tgz#b2591b871ed82948aee4727dc6abceeeac8c1045"
+  integrity sha512-rkpe71W0N0c0Xz6QD0eJETuWAJGnJ9afsl1srmwPrI+yBCkge5EycXXbYRyvL29zZVUWQCY7InPRCv3GDXuZNw==
+
 memoizerific@^1.11.3:
   version "1.11.3"
   resolved "https://registry.yarnpkg.com/memoizerific/-/memoizerific-1.11.3.tgz#7c87a4646444c32d75438570905f2dbd1b1a805a"
@@ -11556,6 +11695,13 @@ node-dir@^0.1.10:
   dependencies:
     minimatch "^3.0.2"
 
+node-fetch@2.6.7, node-fetch@^2.6.1:
+  version "2.6.7"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.7.tgz#24de9fba827e3b4ae44dc8b20256a379160052ad"
+  integrity sha512-ZjMPFEfVx5j+y2yF35Kzx5sF7kDzxuDj6ziH4FFbOp87zKDZNx8yExJIb05OGF4Nlt9IHFIMBkRl41VdvcNdbQ==
+  dependencies:
+    whatwg-url "^5.0.0"
+
 node-fetch@^1.0.1:
   version "1.7.3"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-1.7.3.tgz#980f6f72d85211a5347c6b2bc18c5b84c3eb47ef"
@@ -11563,13 +11709,6 @@ node-fetch@^1.0.1:
   dependencies:
     encoding "^0.1.11"
     is-stream "^1.0.1"
-
-node-fetch@^2.6.1:
-  version "2.6.7"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.7.tgz#24de9fba827e3b4ae44dc8b20256a379160052ad"
-  integrity sha512-ZjMPFEfVx5j+y2yF35Kzx5sF7kDzxuDj6ziH4FFbOp87zKDZNx8yExJIb05OGF4Nlt9IHFIMBkRl41VdvcNdbQ==
-  dependencies:
-    whatwg-url "^5.0.0"
 
 node-forge@^1:
   version "1.3.1"
@@ -13054,7 +13193,7 @@ prop-types-exact@^1.2.0:
     object.assign "^4.1.0"
     reflect.ownkeys "^0.2.0"
 
-prop-types@^15.0.0, prop-types@^15.5.0, prop-types@^15.5.8, prop-types@^15.6.0, prop-types@^15.6.1, prop-types@^15.6.2, prop-types@^15.7.2, prop-types@^15.8.1:
+prop-types@^15.0.0, prop-types@^15.5.0, prop-types@^15.5.10, prop-types@^15.5.8, prop-types@^15.6.0, prop-types@^15.6.1, prop-types@^15.6.2, prop-types@^15.7.2, prop-types@^15.8.1:
   version "15.8.1"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
   integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
@@ -15833,6 +15972,11 @@ use-latest@^1.0.0:
   integrity sha512-xA+AVm/Wlg3e2P/JiItTziwS7FK92LWrDB0p+hgXloIMuVCeJJ8v6f0eeHyPZaJrM+usM1FkFfbNCrJGs8A/zw==
   dependencies:
     use-isomorphic-layout-effect "^1.1.1"
+
+use-memo-one@^1.1.1:
+  version "1.1.2"
+  resolved "https://registry.npmjs.org/use-memo-one/-/use-memo-one-1.1.2.tgz#0c8203a329f76e040047a35a1197defe342fab20"
+  integrity sha512-u2qFKtxLsia/r8qG0ZKkbytbztzRb317XCkT7yP8wxL0tZ/CzK2G+WWie5vWvpyeP7+YoPIwbJoIHJ4Ba4k0oQ==
 
 use-sidecar@^1.1.2:
   version "1.1.2"
