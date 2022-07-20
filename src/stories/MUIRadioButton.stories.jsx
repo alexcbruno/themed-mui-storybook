@@ -11,9 +11,9 @@ export default {
 };
 
 const Template = (args) => <Radio {...args} />;
-export const Radio = Template.bind({});
+export const MuiRadio = Template.bind({});
 
-Radio.args = {
+MuiRadio.args = {
   checked: true,
   disabled: false,
 };
