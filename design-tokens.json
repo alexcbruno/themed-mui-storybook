@@ -1,0 +1,32 @@
+{
+  "mui-primary": {
+    "$value": "#1976D2"
+  },
+  "mui-secondary": {
+    "$value": "#9c27b0"
+  },
+  "mui-success": {
+    "$value": "#2e7d32"
+  },
+  "mui-error": {
+    "$value": "#d32f2f"
+  },
+  "mui-info": {
+    "$value": "#0288d1"
+  },
+  "mui-warning": {
+    "$value": "#ed6c02"
+  },
+  "nextui-colors-primary": {
+    "$value": "#0070F3"
+  },
+  "nextui-colors-secondary": {
+    "$value": "#7928ca"
+  },
+  "atlaskit-background-selected": {
+    "$value": "#253858"
+  },
+  "mui-shadow-md": {
+    "$value": "rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px"
+  }
+}
