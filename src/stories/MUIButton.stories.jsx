@@ -1,9 +1,10 @@
 import React from "react";
-import { MUIButton } from "./MUIButton";
+
+import Button from "@mui/material/Button";
 
 export default {
   title: "Material UI/Button",
-  component: MUIButton,
+  component: Button,
   argTypes: {
     variant: {
       control: { type: "select", options: ["text", "outlined", "contained"] },
@@ -28,10 +29,10 @@ export default {
   },
 };
 
-const Template = (args) => <MUIButton {...args} />;
+const Template = (args) => <Button {...args}>{args.label}</Button>;
 
-export const Button = Template.bind({});
-Button.args = {
+export const MuiButton = Template.bind({});
+MuiButton.args = {
   label: "Button",
   variant: "contained",
   color: "primary",

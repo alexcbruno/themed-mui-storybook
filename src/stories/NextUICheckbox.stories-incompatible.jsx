@@ -1,31 +1,31 @@
 import React from "react";
-import { Checkbox as Component } from "@nextui-org/react";
+import { Checkbox } from "@nextui-org/react";
 
 export default {
   title: "Next UI/Checkbox",
-  component: Component,
+  component: Checkbox,
   argTypes: {
     checked: { control: "boolean" },
     disabled: { control: "boolean" },
     size: {
       control: {
         type: "select",
-        options: ["xs", "sm", "md", "lg", "xl"],
+        options: ["xs", "md"],
       },
     },
     color: {
       control: {
         type: "select",
-        options: ["primary", "secondary", "success", "warning", "error"],
+        options: ["primary", "secondary"],
       },
     },
   },
 };
 
-const Template = (args) => <Component {...args} />;
-export const Checkbox = Template.bind({});
+const Template = (args) => <Checkbox {...args} />;
+export const NextUiCheckbox = Template.bind({});
 
-Checkbox.args = {
+NextUiCheckbox.args = {
   checked: true,
   disabled: false,
   color: "primary",

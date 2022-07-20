@@ -1,17 +1,19 @@
 import React from "react";
-import { default as Component } from "@mui/material/Radio";
+import Radio from "@mui/material/Radio";
 
 export default {
   title: "Material UI/Radio",
-  component: Component,
+  component: Radio,
   argTypes: {
     checked: { control: "boolean" },
+    disabled: { control: "boolean" },
   },
 };
 
-const Template = (args) => <Component {...args} />;
+const Template = (args) => <Radio {...args} />;
 export const Radio = Template.bind({});
 
 Radio.args = {
   checked: true,
+  disabled: false,
 };

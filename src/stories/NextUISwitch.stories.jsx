@@ -1,9 +1,9 @@
 import React from "react";
-import { Switch as Component } from "@nextui-org/react";
+import { Switch } from "@nextui-org/react";
 
 export default {
   title: "Next UI/Switch",
-  component: Component,
+  component: Switch,
   argTypes: {
     checked: { control: "boolean" },
     disabled: { control: "boolean" },
@@ -11,7 +11,7 @@ export default {
     size: {
       control: {
         type: "select",
-        options: ["sm", "md"],
+        options: ["xs", "md"],
       },
     },
     color: {
@@ -23,10 +23,10 @@ export default {
   },
 };
 
-const Template = (args) => <Component {...args} />;
-export const Switch = Template.bind({});
+const Template = (args) => <Switch {...args} />;
+export const NextUiSwitch = Template.bind({});
 
-Switch.args = {
+NextUiSwitch.args = {
   checked: true,
   disabled: false,
   squared: false,
