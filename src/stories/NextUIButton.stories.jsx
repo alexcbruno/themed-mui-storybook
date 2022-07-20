@@ -1,9 +1,9 @@
 import React from "react";
-import { Button as Component } from "@nextui-org/react";
+import { Button } from "@nextui-org/react";
 
 export default {
   title: "Next UI/Button",
-  component: Component,
+  component: Button,
   argTypes: {
     disabled: { control: "boolean" },
     rounded: { control: "boolean" },
@@ -19,16 +19,16 @@ export default {
     color: {
       control: {
         type: "select",
-        options: ["primary", "error"],
+        options: ["primary", "secondary"],
       },
     },
   },
 };
 
-const Template = (args) => <Component {...args}>{args.label}</Component>;
-export const Button = Template.bind({});
+const Template = (args) => <Button {...args}>{args.label}</Button>;
+export const NextUiButton = Template.bind({});
 
-Button.args = {
+NextUiButton.args = {
   disabled: false,
   rounded: false,
   bordered: false,

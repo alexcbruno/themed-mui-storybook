@@ -1,31 +1,31 @@
 import React from "react";
-import { Radio as Component } from "@nextui-org/react";
+import { Radio } from "@nextui-org/react";
 
 export default {
   title: "Next UI/Radio",
-  component: Component,
+  component: Radio,
   argTypes: {
     checked: { control: "boolean" },
     disabled: { control: "boolean" },
     size: {
       control: {
         type: "select",
-        options: ["xs", "sm", "md", "lg", "xl"],
+        options: ["xs", "md"],
       },
     },
     color: {
       control: {
         type: "select",
-        options: ["primary", "secondary", "success", "warning", "error"],
+        options: ["primary", "secondary"],
       },
     },
   },
 };
 
-const Template = (args) => <Component {...args} />;
-export const Radio = Template.bind({});
+const Template = (args) => <Radio {...args} />;
+export const NextUiRadio = Template.bind({});
 
-Radio.args = {
+NextUiRadio.args = {
   checked: true,
   disabled: false,
   color: "primary",

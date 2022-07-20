@@ -1,9 +1,9 @@
 import React from "react";
-import { default as Component } from "@mui/material/Chip";
+import Chip from "@mui/material/Chip";
 
 export default {
   title: "Material UI/Chip",
-  component: Component,
+  component: Chip,
   argTypes: {
     variant: {
       control: { type: "select", options: ["filled", "outlined"] },
@@ -11,24 +11,21 @@ export default {
     color: {
       control: {
         type: "select",
-        options: [
-          "primary",
-          "secondary"
-        ],
+        options: ["primary", "secondary"],
       },
     },
     size: {
       control: { type: "select", options: ["small", "medium"] },
     },
     disabled: { control: "boolean" },
-    clickable: { control: "boolean" }
+    clickable: { control: "boolean" },
   },
 };
 
-const Template = (args) => <Component {...args} />;
-export const Chip = Template.bind({});
+const Template = (args) => <Chip {...args} />;
+export const MuiChip = Template.bind({});
 
-Chip.args = {
+MuiChip.args = {
   label: "Chip",
   variant: "filled",
   color: "primary",
