@@ -7994,6 +7994,11 @@ expect@^27.5.1:
     jest-matcher-utils "^27.5.1"
     jest-message-util "^27.5.1"
 
+expr-eval@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/expr-eval/-/expr-eval-2.0.2.tgz#fa6f044a7b0c93fde830954eb9c5b0f7fbc7e201"
+  integrity sha512-4EMSHGOPSwAfBiibw3ndnP0AvjDWLsMvGOvWEZ2F96IGk0bIVdjQisOHxReSkE13mHcfbuCiXw+G4y0zv6N8Eg==
+
 express@^4.17.1, express@^4.17.3:
   version "4.18.1"
   resolved "https://registry.yarnpkg.com/express/-/express-4.18.1.tgz#7797de8b9c72c857b9cd0e14a5eea80666267caf"
@@ -14670,10 +14675,10 @@ storybook-addon-intl@^2.3.0:
   dependencies:
     prop-types "^15.5.0"
 
-storybook-anima@^1.34.1:
-  version "1.34.1"
-  resolved "https://registry.npmjs.org/storybook-anima/-/storybook-anima-1.34.1.tgz#ae8d4b835258f2b6e5e249bc56d0e483b3149f56"
-  integrity sha512-0cwXl9paGUbE07Lvx3r2CZccwts1cOik3m5SPyfj11UjrE3+GFwpNdj1t0aLddklV6O/XbrRMN1qXVw1+P2n3A==
+storybook-anima@^1.35.0:
+  version "1.35.0"
+  resolved "https://registry.yarnpkg.com/storybook-anima/-/storybook-anima-1.35.0.tgz#c89e1b88c1828784d3d4d59ac7763b7e4137b2a1"
+  integrity sha512-PyxbPCVjHxhmRAdp0VxrJvqUxUsQTsoOpQAxUWgbwFC3Qh85ZiLuxfVTa9wqSvzbyXdU2lftwNWjH2xOGFlWQg==
   dependencies:
     "@emotion/react" "^11.7.1"
     "@emotion/server" "^11.4.0"
@@ -14685,6 +14690,7 @@ storybook-anima@^1.34.1:
     "@storybook/docs-tools" "^6.5.0"
     "@storybook/source-loader" "^6.5.0"
     babel-storybook-anima "0.1.1"
+    expr-eval "^2.0.2"
     fast-deep-equal "^3.1.3"
     flat "^5.0.2"
     lodash "^4.17.21"
