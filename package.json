@@ -17,7 +17,7 @@
     "react-figma-plugin-ds": "^2.3.0",
     "react-scripts": "5.0.0",
     "react-spinners": "^0.11.0",
-    "storybook-anima": "^1.38.0",
+    "storybook-anima": "^1.42.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -25,7 +25,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "storybook": "start-storybook -p 6006 -s public",
+    "storybook": "start-storybook -p 6006 --no-manager-cache -s public",
+    "storybook:dev": "rm -rf ./node_modules/.cache && start-storybook -p 6006 --no-manager-cache -s public",
     "build-storybook": "build-storybook -s public",
     "deploy-storybook": "storybook-to-ghpages"
   },
