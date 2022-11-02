@@ -10,8 +10,18 @@ export default {
   title: "Material UI/Alert",
   component: Alert,
   argTypes: {
-    severity: { type: "select", options: ["error", "info", "warning", "success"] },
-    icon: { type: "select", options: ["CheckCircle", "CheckCircleOutline"] },
+    severity: {
+      control: {
+        type: "select",
+        options: ["error", "info", "warning", "success"],
+      },
+    },
+    icon: {
+      control: {
+        type: "select",
+        options: ["CheckCircle", "CheckCircleOutline"],
+      },
+    },
   },
 };
 
@@ -31,9 +41,11 @@ const Template = (args) => {
       severity={args.severity}
       icon={<Icon name={args.icon} fontSize="inherit" />}
       action={
-        args.action && <Button color="inherit" size="small">
-          UNDO
-        </Button>
+        args.action && (
+          <Button color="inherit" size="small">
+            UNDO
+          </Button>
+        )
       }
     >
       <AlertTitle>Error</AlertTitle>
