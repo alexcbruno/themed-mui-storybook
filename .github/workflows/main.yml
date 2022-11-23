@@ -20,10 +20,10 @@ jobs:
       - name: Build storybook
         run: yarn build-storybook
       
+      - name: Sync to Anima
+        run: yarn sync-to-figma
+
       - name: Deploy storybook to GitHub Pages
         run: yarn deploy-storybook -- --ci --existing-output-dir=./storybook-static
         env:
           GH_TOKEN: ${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}
-
-      - name: Sync to Anima
-        run: yarn sync-to-figma
