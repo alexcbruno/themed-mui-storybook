@@ -29,7 +29,7 @@
     "storybook:dev": "rm -rf ./node_modules/.cache && start-storybook -p 6006 --no-manager-cache -s public",
     "build-storybook": "build-storybook -s public",
     "deploy-storybook": "storybook-to-ghpages",
-    "sync-to-figma": "anima-storybook sync"
+    "sync-to-figma": "anima-storybook sync --design-tokens ./design-tokens.json"
   },
   "eslintConfig": {
     "extends": [
