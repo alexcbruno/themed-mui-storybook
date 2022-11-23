@@ -23,4 +23,4 @@ jobs:
           GH_TOKEN: ${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}
 
       - name: Sync to Anima
-        run: yarn sync-to-figma --directory storybook-static --token ${{ secrets.STORYBOOK_ANIMA_TOKEN }}
+        run: yarn sync-to-figma --token ${{ secrets.STORYBOOK_ANIMA_TOKEN }}
