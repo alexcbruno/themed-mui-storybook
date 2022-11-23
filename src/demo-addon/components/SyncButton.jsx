@@ -9,8 +9,8 @@ export const SyncButton = ({ active }) => {
   const sync = async () => {
     setLoading(true);
     const searchParams = new URLSearchParams(window.location.search);
-    let token = searchParams.get("token");
-    await syncStorybook(token);
+    let anima_t = searchParams.get("anima_t");
+    await syncStorybook(anima_t);
     setLoading(false);
   };
 
