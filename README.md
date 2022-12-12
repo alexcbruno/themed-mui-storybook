@@ -10,11 +10,19 @@
 6. Update `.env` file with your team token [here](https://github.com/AnimaApp/themed-mui-storybook/blob/main/.env)
 7. Run `yarn sync`
 
+
 ## In Figma
 
 1. Open Anima Figma plugin 
 2. Enter Storybook section
-3. You will see your components ready to be imported into the Figma canvas
+3. Connect your Figma file by pressing Command+L to copy the file URL and pasting it as seen below
+
+![image](https://user-images.githubusercontent.com/708153/207123042-8ec4516b-3956-4563-b7d3-436c5654827d.png)
+
+4. Generate your Figma library!
+
+![image](https://user-images.githubusercontent.com/708153/207123226-d7342dbd-89c4-405c-8f65-e4991a50eebf.png)
+
 
 ## How to get your Anima team token
 
