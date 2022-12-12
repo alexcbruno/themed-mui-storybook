@@ -10,6 +10,8 @@
 6. Update `.env` file with your team token [here](https://github.com/AnimaApp/themed-mui-storybook/blob/main/.env)
 7. Run `yarn sync`
 
+> Ignore errors of this type `ERR!  TypeError [ERR_INVALID_ARG_TYPE]: The "id" argument must be of type string. Received an instance of Object`
+
 
 ## In Figma
 
