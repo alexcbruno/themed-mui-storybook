@@ -1,25 +1,60 @@
-import { createTheme } from '@mui/material/styles';
+import { ThemeOptions } from '@material-ui/core/styles/createMuiTheme';
 
-export const theme = createTheme({
+export const themeOptions: ThemeOptions = {
   palette: {
+    type: 'light',
     primary: {
-      main: "#ea1b3d"
-    }
-  },
-  typography: {
-    fontFamily: 'Nunito Sans, sans-serif',
-    button: {
-      textTransform: 'none'
-    }
-  },
-  shape: {
-    borderRadius: 18
-  },
-  components: {
-    MuiButtonBase: {
-      defaultProps: {
-        disableRipple: true, 
-      },
+      main: '#5619D2',
+    },
+    secondary: {
+      main: '#f50057',
     },
   },
-})
+  typography: {
+    fontFamily: '"Inter", "Helvetica", "Arial", sans-serif',
+  },
+  shape: {
+    borderRadius: 0,
+  },
+  props: {
+    MuiButton: {
+      size: 'medium',
+    },
+    MuiButtonGroup: {
+      size: 'medium',
+    },
+    MuiCheckbox: {
+      size: 'small',
+    },
+    MuiFab: {
+      size: 'small',
+    },
+    MuiFormControl: {
+      margin: 'dense',
+      size: 'small',
+    },
+    MuiFormHelperText: {
+      margin: 'dense',
+    },
+    MuiIconButton: {
+      size: 'medium',
+    },
+    MuiInputBase: {
+      margin: 'dense',
+    },
+    MuiInputLabel: {
+      margin: 'dense',
+    },
+    MuiRadio: {
+      size: 'small',
+    },
+    MuiSwitch: {
+      size: 'small',
+    },
+    MuiTextField: {
+      margin: 'dense',
+      size: 'small',
+    },
+  },
+  spacing: 8,
+};
