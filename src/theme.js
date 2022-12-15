@@ -2,24 +2,58 @@ import { createTheme } from '@mui/material/styles';
 
 export const theme = createTheme({
   palette: {
+    type: 'light',
     primary: {
-      main: "#ea1b3d"
-    }
+      main: '#5619D2',
+    },
+    secondary: {
+      main: '#f50057',
+    },
   },
   typography: {
-    fontFamily: 'Nunito Sans, sans-serif',
-    button: {
-      textTransform: 'none'
-    }
+    fontFamily: '"Inter", "Helvetica", "Arial", sans-serif',
   },
   shape: {
-    borderRadius: 18
+    borderRadius: 0,
   },
-  components: {
-    MuiButtonBase: {
-      defaultProps: {
-        disableRipple: true, 
-      },
+  props: {
+    MuiButton: {
+      size: 'medium',
+    },
+    MuiButtonGroup: {
+      size: 'medium',
+    },
+    MuiCheckbox: {
+      size: 'small',
+    },
+    MuiFab: {
+      size: 'small',
+    },
+    MuiFormControl: {
+      margin: 'dense',
+      size: 'small',
+    },
+    MuiFormHelperText: {
+      margin: 'dense',
+    },
+    MuiIconButton: {
+      size: 'medium',
+    },
+    MuiInputBase: {
+      margin: 'dense',
+    },
+    MuiInputLabel: {
+      margin: 'dense',
+    },
+    MuiRadio: {
+      size: 'small',
+    },
+    MuiSwitch: {
+      size: 'small',
+    },
+    MuiTextField: {
+      margin: 'dense',
+      size: 'small',
     },
   },
 })
